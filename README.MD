@@ -1,15 +1,16 @@
-
+Notes
+-----
 lua-xpath is a simple XPath library to help stay sane while working with XML in Lua
 Adopted for rapidxml parser from original LuaExpat compatable version https://github.com/bkersten/lua-xpath
 Not yet suppots last() selector! So //a[last()]/@value - will fail
 
 Dependencies
-------------------
+-------------
 Works on parsed model over luaRapidXML data structure
 https://github.com/tarantool/luarapidxml
 
 Usage
---------
+------
 
 ```lua
 local rapid = require "luarapidxml"
