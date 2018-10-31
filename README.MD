@@ -3,7 +3,11 @@ Notes
 lua-xpath is a simple XPath library to help stay sane while working with XML in Lua. 
 It's adopted for rapidxml parser from original LuaExpat compatable version https://github.com/bkersten/lua-xpath
 
-Not yet suppots last() selector! So //a[last()]/@value - will fail
+Not yet suppots last() selector! So something like 
+```xpath
+//a[last()]/@value
+```
+will not return expected selection.
 
 Dependencies
 -------------
